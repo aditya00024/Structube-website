@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #dbdad5;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 110px; /* Adjusted padding */
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* Add hover effect to navigation links */
+.navbar-container ul li:hover a {
+    background-color: #555;
+}
+
+/* Style for the category selector */
+#categorySelector {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for the category selector */
+#categorySelector:hover {
+    border-color: #999;
+    background-color: #f0f0f0; /* Hover background color */
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: calc(100vh - 100px); /* Adjusted maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    height: 270px;
+    margin-bottom: 40px;
+    background-size: cover;
+}
+
+.card h2,
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #555;
+}
+
+.card-imageaboutus-1 {
+    background-image: url("bg1-modified.png");
+}
+
+.card-imageaboutus-2 {
+    background-image: url("adi-modified.png");
+}
+
+.card-imageaboutus-3 {
+    background-image: url("jai-modified.png");
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}

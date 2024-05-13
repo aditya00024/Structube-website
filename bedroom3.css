@@ -1,0 +1,420 @@
+/* Existing CSS styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #dbdad5;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 110px; /* Adjusted padding */
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo-image {
+    /* Apply specific styling to the logo image */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* Add hover effect to navigation links */
+.navbar-container ul li:hover a {
+    background-color: #555;
+}
+
+/* Style for the category selector */
+#categorySelector {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for the category selector */
+#categorySelector:hover {
+    border-color: #999;
+    background-color: #f0f0f0; /* Hover background color */
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: left; /* Align h1 to the left */
+    margin: 20px 0 0 65px; /* Adjust margin as needed */
+}
+
+p {
+    text-align: left; /* Align paragraph to the left */
+    margin: 0 0 0 65px; /* Adjust margin as needed */
+}
+
+.bedroom-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 95%; /* Image takes up 95% of the container */
+    height: auto;
+    padding: 50px; /* Adjusted padding */
+}
+
+.image-container {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+.image-container a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: right;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    right: 0;
+}
+
+.image-container a:hover {
+    background-color: #555;
+    text-align: center;
+}
+
+.split-image {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Add transition effect */
+    padding: 50px;
+}
+
+.split-image:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.additional-image {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Add transition effect */
+    padding: 50px;
+    float: left; /* Align the image to the left */
+}
+
+.additional-image:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Existing CSS styles */
+
+.additional-text {
+    width: 45%;
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 20px;
+    text-align: left;
+    margin-top: 50px;
+    float: right; /* Remove this line */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.additional-text h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.additional-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.additional-text a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 20px auto; /* Add margin to center horizontally */
+    display: block; /* Convert to block-level element */
+    width: fit-content; /* Adjust width to fit content */
+}
+
+
+.additional-text a:hover {
+    background-color: #555;
+    
+}
+
+.card1 {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.additional-image {
+    flex: 0 0 50%; /* Take up half of the card width */
+    margin-right: 20px; /* Add some spacing between image and text */
+}
+
+footer {
+    background-color: #aba9a1.;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 25;
+    margin-right: 30px;
+}
+
+.footer-column h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: calc(1200vh - 200px); /* Adjust the maximum height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.card {
+    background-color: #dbdad5;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+    width: 300px;
+    height: 320px;
+    margin: 1px;
+    
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #dbdad5, 0 0 20px #dbdad5, 0 0 30px #dbdad5, 0 0 40px #dbdad5, 0 0 50px #dbdad5, 0 0 60px #dbdad5, 0 0 70px #dbdad5;
+        background-color: #dbdad5; /* Adjust the glow color and intensity */
+    }
+    100% {
+        box-shadow: none;
+        background-color: #fff;
+    }
+}
+
+.card-image {
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card h2,
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: black;
+}
+
+.card-imagebedroom-1 {
+    background-image: url(bp3.1.png);
+}
+.card-imagebedroom-2 {
+    background-image: url(bp3.2.png);
+}
+
+.card-imagebedroom-3 {
+    background-image: url(bp3.3.png);
+}
+
+.card-imagebedroom-4 {
+    background-image: url(bp3.4.png);
+}
+
+.card-imagebedroom-5 {
+    background-image: url(bp3.5.png);
+}
+
+.card-imagebedroom-6 {
+    background-image: url(bp3.6.png);
+}
+
+.card-imagebedroom-7 {
+    background-image: url(bp3.7.png);
+}
+
+.card-imagebedroom-8 {
+    background-image: url(bp3.8.png);
+}
+
+/* Styles for the second container */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    background-color: black; /* Changed background color */
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 100px; /* Adjusted margin */
+    border-radius: 20px;
+    transition: transform 0.3s ease; /* Adding transition for smooth hover effect */
+}
+
+.card-container:hover {
+    transform: translateY(-5px); /* Move the container up on hover */
+}
+
+.card-container a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card-container a:hover {
+    background-color: black;
+}
+
+.info {
+    width: 25%; /* Adjusted the width of the info section */
+}
+
+.image {
+    width: 75%; /* Adjusted the width of the image section */
+    text-align: center; /* Centered the image */
+}
+
+.image img {
+    max-width: 95%;
+    max-height: 100%; /* Ensured the image doesn't exceed the container's dimensions */
+}
+
+/* Styles for the third container */
+.card-container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    background-color: black; /* Changed background color */
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 100px; /* Adjusted margin */
+    border-radius: 20px;
+    transition: transform 0.3s ease; /* Adding transition for smooth hover effect */
+}
+
+.card-container1:hover {
+    transform: translateY(-5px); /* Move the container up on hover */
+}
+
+.card-container1 a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card-container1 a:hover {
+    background-color: black;
+    
+}
